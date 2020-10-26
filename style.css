@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  padding: 30px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14px;
+}
+
+body a {
+  color: rgb(0, 12, 177);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  background-color: rgb(255, 250, 239);
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(187, 187, 187);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+}
+
+#header {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+#header .my-name {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .my-name img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#header .my-name h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#header .my-name span {
+  font-size: 14px;
+  color: rgb(20, 20, 20);
+}
+#header .my-name .description {
+  font-size: 18px;
+  color: darkmagenta;
+  margin-bottom: 10px;
+}
+
+#header .my-data-header {
+  text-align: right;
+  list-style: none;
+}
+
+#header .my-data-header li {
+  margin-bottom: 5px;
+}
+
+#content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#content section {
+  margin-bottom: 20px;
+}
+
+#content section h2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#content section ul {
+  list-style: none;
+}
+
+#content section .skills li {
+  margin-bottom: 5px;
+}
+
+#content section .portfolio li {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#content section .portfolio li .link {
+  margin-bottom: 5px;
+}
+
+#content section .portfolio li .description {
+  margin-left: 30px;
+  /* font-style: italic; */
+  font-family: 'PT Serif', serif;
+}
