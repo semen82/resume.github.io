@@ -7,7 +7,6 @@
 html,
 body {
   min-height: 100vh;
-  height: 100%;
 }
 
 body {
@@ -81,6 +80,23 @@ body a:hover {
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 540px) {
+  #header {
+    flex-wrap: wrap;
+  }
+
+  #header .my-name {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  }
+
+  #header .my-data-header {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 #content {
   height: 100%;
   display: flex;
@@ -113,6 +129,7 @@ body a:hover {
 
 #content section .portfolio li .link {
   margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 #content section .portfolio li .description {
