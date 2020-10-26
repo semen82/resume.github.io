@@ -1,0 +1,295 @@
+@media screen and (max-width: 1200px) {
+    .types .japan .menu .text {
+        margin-top: 20px;
+    }
+    .types .japan .menu img {
+        height: 100px;
+    }
+    .types .japan .menu p:first-child {
+        font-size: 18px;
+    }
+    .types .japan .menu p:last-child {
+        font-size: 16px;
+    }
+    
+    .reviews .head::before,
+    .reviews .head::after,
+    .certificate .head::before,
+    .certificate .head::after,
+    .video .head::before,
+    .video .head::after,
+    .about .head::before,
+    .about .head::after,
+    .our-menu .head::before,
+    .our-menu .head::after {
+        width: 250px;
+    }
+    
+    .present .pres {
+        background-size: 970px;
+        height: 224px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    
+    .header {
+        background-size: 1400px;
+    }
+    .header .row{
+        height: 365px;
+    }
+    .header .row button {
+        padding: 5px 25px;
+        font-size: 18px;
+        margin-top: 310px;
+    }
+    
+    .stock .time .time-wrap {
+        width: 90px;
+    }
+    .stock .time .time-wrap p {
+        font-size: 16px;
+    }
+    .stock .flip {
+        width: 45px;
+        height: 80px;
+        background-size: 45px;
+        font-size: 60px;
+        line-height: 76px;
+    }
+    .stock .description p {
+        font-size: 26px;
+    }
+    
+    .types .japan:nth-child(1) .around-clock,
+    .types .japan:nth-child(2) .around-clock,
+    .types .japan:nth-child(3) .around-clock {
+    background-size: 25px;
+    padding-left: 30px;
+}
+    .types .japan .around-clock p:first-child {
+        font-size: 14px;
+    }
+    .types .japan .around-clock p:last-child {
+        font-size: 14px;
+    }
+    
+    .types .japan .menu .text {
+        margin-top: 10px;
+    }
+    .types .japan .menu img {
+        height: 75px;
+    }
+    .types .japan .menu p:first-child {
+        font-size: 16px;
+    }
+    .types .japan .menu p:last-child {
+        font-size: 14px;
+    }
+    .types .japan button {
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+    
+    .reviews .head::before,
+    .reviews .head::after,
+    .certificate .head::before,
+    .certificate .head::after,
+    .video .head::before,
+    .video .head::after,
+    .about .head::before,
+    .about .head::after,
+    .our-menu .head::before,
+    .our-menu .head::after {
+        width: 150px;
+    }
+    .our-menu .wrap img {
+        width: 150px;
+    }
+    
+    .present .pres {
+        background-size: 750px;
+        height: 173px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        background-size: 900px;
+    }
+    .header .row{
+        height: 236px;
+    }
+    .header .row button {
+        padding: 3px 15px;
+        font-size: 16px;
+        margin-top: 190px;
+    }
+    
+    .stock .container .row .time {
+        margin: 0 auto;
+        width: 430px;
+        float: none;
+    }
+    
+    .types .japan .menu .text {
+        margin-top: 10px;
+    }
+    .types .japan .menu img {
+        height: 75px;
+    }
+    .types .japan .menu p:first-child {
+        font-size: 16px;
+    }
+    .types .japan .menu p:last-child {
+        font-size: 14px;
+    }
+    
+    .types .japan .menu {
+        text-align: center
+    }
+    .types .japan .menu img {
+        float: none;
+    }
+    
+    .reviews .head,
+    .certificate .head,
+    .video .head,
+    .about .head,
+    .our-menu .head {
+        font-size: 30px;
+    }
+    
+    .reviews .head::before,
+    .reviews .head::after,
+    .certificate .head::before,
+    .certificate .head::after,
+    .video .head::before,
+    .video .head::after,
+    .about .head::before,
+    .about .head::after,
+    .our-menu .head::before,
+    .our-menu .head::after {
+        width: 80px;
+    }
+    
+    .present {
+        display: none;
+    }
+    
+    .about .wrap {
+        margin-left: 15px;
+        margin-right: 15px;;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .top-line .tel p {
+        font-size: 26px;
+    }
+    .top-line .tel button {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    
+    .header {
+        background-size: 700px;
+    }
+    .header .row{
+        height: 180px;
+    }
+    .header .row button {
+        padding: 5px 20px;
+        font-size: 14px;
+        margin-top: 120px;
+    }
+    
+    .stock .time .time-wrap {
+        width: 70px;
+    }
+    .stock .time .time-wrap p {
+        font-size: 14px;
+    }
+    .stock .flip {
+        width: 35px;
+        height: 60px;
+        background-size: 35px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .stock .description p {
+        font-size: 26px;
+    }
+    .stock .container .row .time {
+        width: 350px;
+    }
+    
+    .reviews .head::before,
+    .reviews .head::after,
+    .certificate .head::before,
+    .certificate .head::after,
+    .video .head::before,
+    .video .head::after,
+    .about .head::before,
+    .about .head::after,
+    .our-menu .head::before,
+    .our-menu .head::after {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

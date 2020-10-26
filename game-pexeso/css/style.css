@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#wrap-game {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 20px auto 0;
+    border: 1px solid rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 240, 240);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    outline: none;
+    margin: 0 20px 10px;
+}
+
+#new-game {
+    background-color: rgb(255, 251, 40);
+}
+#start-game {
+    background-color: rgb(119, 255, 40);
+}
+#rules-game {
+    background-color: rgb(115, 187, 255);
+}
+
+#wrap-cards {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#wrap-cards>li {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    border-radius: 10px;
+    margin: 1.5%;
+}
+
+#wrap-cards>li img {
+    width: 70%;
+    height: auto;
+}
+
+#wrap-cards li .front,
+#wrap-cards li .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+    transition: 1s transform;
+    border-radius: 10px;
+    border: 1px solid rgb(138, 138, 138);
+}
+
+#wrap-cards li .front {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrap-cards li .back {
+    background-color: #BDBDBD;
+    transform: rotateY(180deg);
+}
+
+.front-inverted {
+    transform: rotateY(180deg) !important;
+}
+.back-inverted {
+    transform: rotateY(360deg) !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.no-show {
+    opacity: 0;
+}
+.show {
+    opacity: 1;
+}
+
+.blue {
+    background-color: rgb(100, 219, 255) !important;
+    color: #ff7e7e;
+}
+
+.color-green {
+    background-color: #a1ffc5;
+}
+.color-red {
+    background-color: #7effb0;
+}
+
+.wrap-rules {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wrap-rules .rules {
+    width: 300px;
+    max-height: 500px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #000;
+    overflow: auto;
+}
+
+.wrap-rules .close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(255, 51, 51);
+    padding: 10px 15px;
+}
+.wrap-rules .close-modal:hover {
+    background-color: rgb(255, 167, 167);
+}
+
+.wrap-rules p,
+.wrap-rules h3 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+        #wrap-game {
+            width: 100%;
+        }
+
+        #wrap-cards>li {
+            width: 80px;
+            height: 80px;
+            margin: 2.5%;
+    }
+}

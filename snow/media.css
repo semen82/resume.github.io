@@ -1,0 +1,109 @@
+@media screen and (min-width: 576px) {
+    .first .content .iphone {
+        margin-top: -460px;
+    }
+    .first .content .iphone h2 {
+        font-size: 40px;
+    }
+    .first .content .iphone p {
+        font-size: 16px;
+    }
+    
+    .first .content .iphone img {
+        width: 100%;
+        height: auto;
+        display: inline;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .first .content .iphone {
+        margin-top: -500px;
+    }
+    .first .content .texts .wrap h3 {
+        font-size: 20px;
+    }
+    .first .content .texts .wrap p {
+        font-size: 16px;
+    }
+    .pricing .cards .professional {
+        margin-left: -31px;
+        margin-right: -31px;
+    }
+    .pricing {
+        padding-top: 200px;
+    }
+    .pricing .cards .professional {
+        margin-top: -15px;
+    }
+    .pricing .cards .card:hover {
+        transform: scale(1.05);
+    }
+    .pricing .cards .card {
+        border-radius: 10px;
+    }
+    .over-footer .tc,
+    .over-footer .forbes {
+        font-size: 14px;
+    }
+    .over-footer img {
+        width: 100px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .first .content .iphone {
+        margin-top: -570px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    body .image {
+        display: block;
+    }
+    body>.bg {
+        background: none;
+    }
+    .over-footer .tc,
+    .over-footer .forbes {
+        font-size: 16px;
+    }
+    .over-footer img {
+        width: 140px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
